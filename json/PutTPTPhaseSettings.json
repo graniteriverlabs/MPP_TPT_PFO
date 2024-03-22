@@ -1,0 +1,57 @@
+{
+    "negotiationPhaseSetting": {
+        "manufacturerCode": 270,
+        "majorVersion": 1,
+        "minorVersion": 3,
+        "guaranteedPowerClass": 0,
+        "guaranteedPowerValue": 30,
+        "potentialPowerClass": 0,
+        "potentialPowerValue": 30,
+        "modulationDepth": [
+            "Default"
+        ],
+        "configModulationDepth": "Default",
+        "modulationCycles": [
+            256,
+            128,
+            512,
+            64
+        ],
+        "configModulationCycles": 256,
+        "wpid": false,
+        "notResonsnce": false,
+        "forceACKonSrqEn": false,
+        "accept8bitRP": false,
+        "accept24bitRP": false,
+        "forceACKonSrqResponse": false,
+        "forceNAKonSrqResponse": false
+    },
+    "powerTransferPhaseSetting": {
+        "t_Timeout_Max": 1500,
+        "t_Active": 20,
+        "t_Settle": 5,
+        "t_Power_Max": 35000,
+        "invertControlErrorValue": false
+    },
+    "calibrationPhaseSetting": {
+        "enableCalibrationPhase": false,
+        "forceSpecial3xNAKrACKResponseonRPP": false,
+        "forceACKResponseonRPP": false,
+        "maxNumberofNAKs": -1,
+        "t_Power_Max_mode_1": 550,
+        "t_Power_Max_mode_2": 2050
+    },
+    "idPhaseSetting": {
+        "respondTONegotiationBit": false,
+        "t_Next_Max": 22,
+        "t_Max": 170
+    },
+    "pingPhaseSetting": {
+        "t_Ping": 65,
+        "t_Terminate": 28,
+        "t_First": 20,
+        "t_Odi": 500,
+        "t_Odt": 10000,
+        "t_Rat": 200
+    }
+}
